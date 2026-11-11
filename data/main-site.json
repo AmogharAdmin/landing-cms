@@ -1,0 +1,1278 @@
+{
+  "sectionOrder": [
+    "hero",
+    "about",
+    "highlights",
+    "amenities",
+    "homes",
+    "gallery",
+    "location",
+    "virtualTourSection",
+    "plansSection",
+    "faqSection",
+    "contactSection"
+  ],
+  "sectionSettings": {
+    "hero": {
+      "enabled": true,
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "backgroundColor": "",
+      "textColor": "",
+      "anchor": "overview"
+    },
+    "about": {
+      "enabled": true,
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "backgroundColor": "",
+      "textColor": "",
+      "anchor": "about"
+    },
+    "highlights": {
+      "enabled": true,
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "backgroundColor": "",
+      "textColor": "",
+      "anchor": "highlights"
+    },
+    "amenities": {
+      "enabled": true,
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "backgroundColor": "",
+      "textColor": "",
+      "anchor": "amenities"
+    },
+    "homes": {
+      "enabled": true,
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "backgroundColor": "",
+      "textColor": "",
+      "anchor": "homes"
+    },
+    "gallery": {
+      "enabled": true,
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "backgroundColor": "",
+      "textColor": "",
+      "anchor": "gallery"
+    },
+    "location": {
+      "enabled": true,
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "backgroundColor": "",
+      "textColor": "",
+      "anchor": "location"
+    },
+    "virtualTourSection": {
+      "enabled": true,
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "backgroundColor": "",
+      "textColor": "",
+      "anchor": "virtual-tour"
+    },
+    "plansSection": {
+      "enabled": true,
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "backgroundColor": "",
+      "textColor": "",
+      "anchor": "plans"
+    },
+    "faqSection": {
+      "enabled": true,
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "backgroundColor": "",
+      "textColor": "",
+      "anchor": "faqs"
+    },
+    "contactSection": {
+      "enabled": true,
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "backgroundColor": "",
+      "textColor": "",
+      "anchor": "contact"
+    }
+  },
+  "site": {
+    "logo": "/images/logo.webp",
+    "dashboardLogo": "",
+    "name": "Nambiar District 25",
+    "phone": "+91 9953384949",
+    "address": "Nambiar District 25, Sarjapur",
+    "favicon": "/favicon.svg",
+    "location": "East Bangalore",
+    "whatsapp": "+91 9953384949",
+    "developer": "Nambiar Group",
+    "brochureUrl": "#enquire",
+    "masterPlanUrl": "#enquire"
+  },
+  "theme": {
+    "primary": "#0B1F35",
+    "secondary": "#B98945",
+    "accent": "#D3A45F",
+    "button": "#B98945",
+    "buttonText": "#FFFFFF",
+    "background": "#FFFFFF",
+    "lightBackground": "#F7F5F0",
+    "text": "#142033",
+    "mutedText": "#667085",
+    "darkSection": "#062536",
+    "whatsapp": "#2E7D4F",
+    "titleColor": "#0B1F35",
+    "descriptionColor": "#667085",
+    "primaryButton": "#B98945",
+    "primaryButtonText": "#FFFFFF",
+    "secondaryButton": "#0B1F35",
+    "secondaryButtonText": "#FFFFFF",
+    "cardBackground": "#FFFFFF",
+    "borderColor": "#E9E2D8"
+  },
+  "offerBar": {
+    "enabled": true,
+    "text": "Limited-period launch benefits available now. Enquire today for priority pricing and exclusive booking assistance.",
+    "backgroundColor": "#B98945",
+    "textColor": "#FFFFFF"
+  },
+  "header": {
+    "backgroundColor": "#0B1F35",
+    "brochureButton": {
+      "enabled": true,
+      "label": "Download Brochure",
+      "action": "enquire",
+      "intent": "brochure",
+      "href": "#enquire",
+      "backgroundColor": "#B98945",
+      "textColor": "#FFFFFF"
+    },
+    "phoneButtonColor": "#0B1F35"
+  },
+  "navigation": {
+    "items": [
+      {
+        "label": "Home",
+        "target": "#overview"
+      },
+      {
+        "label": "Floor Plans",
+        "target": "#homes"
+      },
+      {
+        "label": "Amenities",
+        "target": "#amenities"
+      },
+      {
+        "label": "Gallery",
+        "target": "#gallery"
+      },
+      {
+        "label": "Location",
+        "target": "#location"
+      },
+      {
+        "label": "Price",
+        "target": "#homes"
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "EAST BANGALORE'S PREMIER TOWNSHIP",
+    "heading": "District 25",
+    "primaryCTA": {
+      "label": "Download Brochure",
+      "action": "enquire",
+      "intent": ""
+    },
+    "description": "A luxury integrated township across 210 acres with 40%+ green space, 3500+ native trees.",
+    "eyebrowColor": "#D3A45F",
+    "headingColor": "#FFFFFF",
+    "secondaryCTA": {
+      "label": "Explore Project",
+      "action": "scroll",
+      "target": "#about"
+    },
+    "backgroundAlt": "Nambiar District 25  Background Image",
+    "headingAccent": "SOHO Life",
+    "backgroundImage": "/images/hero-image.webp",
+    "descriptionColor": "#FFFFFF",
+    "primaryCTAEnabled": true,
+    "headingAccentColor": "#D3A45F",
+    "secondaryCTAEnabled": true,
+    "factsEnabled": true,
+    "mobileLayout": {
+      "imageFirstEnabled": true,
+      "imageHeight": 240,
+      "cardOffset": 12,
+      "imageObjectPosition": "center center",
+      "overlayOpacity": 0.18,
+      "contentBackgroundColor": "#f7f3ed"
+    },
+    "mobileLeadForm": {
+      "enabled": true,
+      "title": "Get a callback",
+      "submitLabel": "Submit",
+      "successMessage": "Thank you. We will call you shortly.",
+      "footerText": "We respect your privacy.",
+      "formBackgroundColor": "#ffffff",
+      "formTextColor": "#0b1f35",
+      "inputBackgroundColor": "#ffffff",
+      "inputBorderColor": "#d8dde6",
+      "inputTextColor": "#0b1f35",
+      "buttonBackgroundType": "plain",
+      "buttonBackgroundColor": "#b98945",
+      "buttonTextColor": "#ffffff",
+      "fields": {
+        "name": {
+          "enabled": true,
+          "required": true,
+          "label": "Full Name",
+          "placeholder": "Enter your full name"
+        },
+        "phone": {
+          "enabled": true,
+          "required": true,
+          "label": "Phone Number",
+          "placeholder": "Enter your phone number"
+        }
+      },
+      "gtmId": "hero_mobile_lead"
+    }
+  },
+  "bookingCard": {
+    "enabled": true,
+    "offerTitle": "PRE-LAUNCH EXCLUSIVE",
+    "title": "NAMBIAR DISTRICT 25",
+    "description": "At Sarjapur Road, Bangalore By Nambiar Group",
+    "ratingSource": "G",
+    "ratingStars": 5,
+    "ratingLabel": "4.7 Stars · 42 Reviews",
+    "landLabel": "Land Parcel",
+    "landValue": "50+ Acres",
+    "floorsLabel": "Floors",
+    "floorsValue": "2 B + G + 21 Floors",
+    "totalUnitsLabel": "Total Units",
+    "totalUnitsValue": "1500+",
+    "configurationsLabel": "Configurations",
+    "configurationsValue": "2, 3, 4 BHK & Penthouse",
+    "possessionLabel": "Possession",
+    "possessionValue": "2029 Onwards",
+    "benefitsTitle": "EARLY BUYER BENEFITS",
+    "benefits": [
+      "Pre-Launch Pricing Advantage",
+      "Flexible Payment Options",
+      "Exclusive Limited Period Benefits"
+    ],
+    "propertyText": "Luxurious 2, 3, 4 BHK & Penthouses",
+    "pricePrefix": "Starts From",
+    "price": "₹ 1.85 Cr",
+    "priceSuffix": "Onwards",
+    "button": {
+      "label": "GET PRICE & FLOOR PLAN",
+      "action": "enquire",
+      "intent": "default",
+      "href": "#enquire"
+    },
+    "headerColor": "#0B1F35",
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#0B1F35",
+    "benefitsStartColor": "#647B27",
+    "benefitsEndColor": "#0D8378"
+  },
+  "heroFacts": [
+    {
+      "icon": "building",
+      "value": "210+",
+      "label": "Acres Township"
+    },
+    {
+      "icon": "home",
+      "value": "2, 3, 4 BHK",
+      "label": "& Penthouses"
+    },
+    {
+      "icon": "layers",
+      "value": "G + 21",
+      "label": "Floors"
+    },
+    {
+      "icon": "landmark",
+      "value": "East Bangalore",
+      "label": "By Nambiar Group"
+    }
+  ],
+  "about": {
+    "label": "ABOUT NAMBIAR DISTRICT 25",
+    "heading": "Township Designed for Better Living.",
+    "headingAccent": "Beautifully Crafted.",
+    "description": "Nambiar District 25 is a thoughtfully planned integrated township near Sarjapur Road, Bengaluru, offering spacious 2, 3, 4 and 4.5 BHK residences surrounded by expansive green spaces, lifestyle amenities and open areas designed for comfortable modern living.",
+    "cta": {
+      "label": "Know More About Us",
+      "action": "enquire",
+      "intent": ""
+    },
+    "features": [
+      {
+        "enabled": true,
+        "icon": "trees",
+        "title": "Nature Inspired Living",
+        "description": "Open greens, water features and landscaped walks woven into everyday life.",
+        "cta": {
+          "label": "Explore More",
+          "action": "enquire",
+          "intent": ""
+        }
+      },
+      {
+        "enabled": true,
+        "icon": "sparkles",
+        "title": "World Class Amenities",
+        "description": "A resort-style clubhouse and lifestyle spaces designed for every age.",
+        "cta": {
+          "label": "Explore More",
+          "action": "enquire",
+          "intent": ""
+        }
+      },
+      {
+        "enabled": true,
+        "icon": "shield",
+        "title": "Trusted Developer",
+        "description": "Crafted by Nambiar Group with a focus on quality, planning and lasting value.",
+        "cta": {
+          "label": "Explore More",
+          "action": "enquire",
+          "intent": ""
+        }
+      },
+      {
+        "enabled": true,
+        "icon": "route",
+        "title": "Seamless Connectivity",
+        "description": "Effortless access to business hubs, schools, hospitals and essential city nodes.",
+        "cta": {
+          "label": "Explore More",
+          "action": "enquire",
+          "intent": ""
+        }
+      }
+    ]
+  },
+  "highlights": {
+    "items": [
+      {
+        "icon": "trees",
+        "value": "200+",
+        "label": "Acres Township"
+      },
+      {
+        "icon": "flower",
+        "value": "70%+",
+        "label": "Open & Green Spaces"
+      },
+      {
+        "icon": "building",
+        "value": "15+ Lacs Sq.Ft.",
+        "label": "Clubhouse & Lifestyle Zone"
+      },
+      {
+        "icon": "shield-check",
+        "value": "Grade A",
+        "label": "Sustainable Development"
+      },
+      {
+        "icon": "plane",
+        "value": "Close to Airport",
+        "label": "& Major Business Hubs"
+      }
+    ],
+    "cta": {
+      "label": "Enquire Now",
+      "action": "enquire"
+    }
+  },
+  "amenities": {
+    "label": "WORLD CLASS AMENITIES",
+    "heading": "Everything You Need.",
+    "headingAccent": "Right Where You Live.",
+    "items": [
+      {
+        "icon": "building",
+        "label": "Clubhouse"
+      },
+      {
+        "icon": "waves",
+        "label": "Swimming Pool"
+      },
+      {
+        "icon": "trophy",
+        "label": "Sports Courts"
+      },
+      {
+        "icon": "baby",
+        "label": "Kids Play Area"
+      },
+      {
+        "icon": "dumbbell",
+        "label": "Gymnasium"
+      },
+      {
+        "icon": "person-standing",
+        "label": "Jogging Track"
+      },
+      {
+        "icon": "flower",
+        "label": "Landscaped Gardens"
+      },
+      {
+        "icon": "briefcase",
+        "label": "Co working Space"
+      },
+      {
+        "icon": "shield-check",
+        "label": "24/7 Security"
+      },
+      {
+        "icon": "utensils",
+        "label": "Retail & Dining"
+      },
+      {
+        "icon": "party-popper",
+        "label": "Party Lawn"
+      },
+      {
+        "icon": "heart",
+        "label": "Wellness Center"
+      },
+      {
+        "icon": "gamepad",
+        "label": "Indoor Games"
+      },
+      {
+        "icon": "leaf",
+        "label": "Meditation Zone"
+      },
+      {
+        "icon": "paw-print",
+        "label": "Pet Park"
+      }
+    ],
+    "image": "/images/image-2.webp",
+    "imageAlt": "World-class swimming pool and landscaped deck at Nambiar District 25",
+    "lifestyleCards": [
+      {
+        "icon": "trees",
+        "title": "Live",
+        "subtitle": "Close to Nature"
+      },
+      {
+        "icon": "sparkles",
+        "title": "Play",
+        "subtitle": "Everyday Joys"
+      },
+      {
+        "icon": "leaf",
+        "title": "Relax",
+        "subtitle": "Complete Peace"
+      }
+    ],
+    "lifestyleCardsEnabled": false,
+    "visitCtaEnabled": false,
+    "cta": {
+      "label": "Enquire About Amenities",
+      "action": "brochure"
+    },
+    "visitCta": {
+      "label": "Schedule a Site Visit",
+      "action": "enquire"
+    }
+  },
+  "homes": {
+    "label": "CHOOSE YOUR HOME",
+    "heading": "Homes designed around how you live.",
+    "floorPlanLocked": false,
+    "floorPlanBlur": 0,
+    "expandSingleFloorPlan": true,
+    "floorPlanImageSize": "standard",
+    "tabs": [
+      {
+        "id": "apartments",
+        "label": "Apartments"
+      },
+      {
+        "id": "villas",
+        "label": "Villas"
+      },
+      {
+        "id": "penthouses",
+        "label": "Penthouses"
+      }
+    ],
+    "properties": [
+      {
+        "id": "2bhk",
+        "tab": "apartments",
+        "title": "2 BHK",
+        "subtitle": "Apartment",
+        "area": "1100 – 1260 Sq.Ft.",
+        "price": "₹1.76 Cr*",
+        "priceNote": "Onwards",
+        "cta": {
+          "label": "View Details",
+          "action": "scroll",
+          "target": "#floor-plans"
+        },
+        "floorPlanId": "2bhk"
+      },
+      {
+        "id": "2-5bhk",
+        "tab": "apartments",
+        "title": "2.5 BHK",
+        "subtitle": "Apartment",
+        "area": "1300 – 1450 Sq.Ft.",
+        "price": "₹2.05 Cr*",
+        "priceNote": "Onwards",
+        "cta": {
+          "label": "View Details",
+          "action": "scroll",
+          "target": "#floor-plans"
+        },
+        "floorPlanId": "2-5bhk"
+      },
+      {
+        "id": "3bhk",
+        "tab": "apartments",
+        "title": "3 BHK",
+        "subtitle": "Apartment",
+        "area": "1575 – 1700 Sq.Ft.",
+        "price": "₹2.45 Cr*",
+        "priceNote": "Onwards",
+        "cta": {
+          "label": "View Details",
+          "action": "scroll",
+          "target": "#floor-plans"
+        },
+        "floorPlanId": "3bhk"
+      },
+      {
+        "id": "3bhk-villa",
+        "tab": "villas",
+        "title": "3 BHK Villa",
+        "subtitle": "Independent Living",
+        "area": "2400 – 2600 Sq.Ft.",
+        "price": "₹4.25 Cr*",
+        "priceNote": "Onwards",
+        "cta": {
+          "label": "View Details",
+          "action": "scroll",
+          "target": "#floor-plans"
+        },
+        "floorPlanId": "3bhk-villa"
+      },
+      {
+        "id": "3-5bhk-ph",
+        "tab": "penthouses",
+        "title": "3.5 BHK",
+        "subtitle": "Penthouse",
+        "area": "2100 – 2350 Sq.Ft.",
+        "price": "₹3.85 Cr*",
+        "priceNote": "Onwards",
+        "cta": {
+          "label": "View Details",
+          "action": "scroll",
+          "target": "#floor-plans"
+        },
+        "floorPlanId": "3-5bhk-ph"
+      },
+      {
+        "id": "4bhk-ph",
+        "tab": "penthouses",
+        "title": "4 BHK",
+        "subtitle": "Penthouse",
+        "area": "2600 – 2900 Sq.Ft.",
+        "price": "₹4.90 Cr*",
+        "priceNote": "Onwards",
+        "cta": {
+          "label": "View Details",
+          "action": "scroll",
+          "target": "#floor-plans"
+        },
+        "floorPlanId": "4bhk-ph"
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "2bhk",
+        "propertyId": "2bhk",
+        "label": "2 BHK APARTMENT",
+        "area": "1100 – 1260 Sq.Ft.",
+        "image": "/images/floor-plan.webp",
+        "alt": "2 BHK apartment floor plan",
+        "downloadUrl": "#enquire"
+      },
+      {
+        "id": "2-5bhk",
+        "propertyId": "2-5bhk",
+        "label": "2.5 BHK APARTMENT",
+        "area": "1300 – 1450 Sq.Ft.",
+        "image": "/images/floor-plan.webp",
+        "alt": "2.5 BHK apartment floor plan",
+        "downloadUrl": "#enquire"
+      },
+      {
+        "id": "3bhk",
+        "propertyId": "3bhk",
+        "label": "3 BHK APARTMENT",
+        "area": "1575 – 1700 Sq.Ft.",
+        "image": "/images/floor-plan.webp",
+        "alt": "3 BHK apartment floor plan",
+        "downloadUrl": "#enquire"
+      },
+      {
+        "id": "3bhk-villa",
+        "propertyId": "3bhk-villa",
+        "label": "3 BHK VILLA",
+        "area": "2400 – 2600 Sq.Ft.",
+        "image": "/images/floor-plan.webp",
+        "alt": "3 BHK villa floor plan",
+        "downloadUrl": "#enquire"
+      },
+      {
+        "id": "3-5bhk-ph",
+        "propertyId": "3-5bhk-ph",
+        "label": "3.5 BHK PENTHOUSE",
+        "area": "2100 – 2350 Sq.Ft.",
+        "image": "/images/floor-plan.webp",
+        "alt": "3.5 BHK penthouse floor plan",
+        "downloadUrl": "#enquire"
+      },
+      {
+        "id": "4bhk-ph",
+        "propertyId": "4bhk-ph",
+        "label": "4 BHK PENTHOUSE",
+        "area": "2600 – 2900 Sq.Ft.",
+        "image": "/images/floor-plan.webp",
+        "alt": "4 BHK penthouse floor plan",
+        "downloadUrl": "#enquire"
+      }
+    ],
+    "downloadCta": {
+      "label": "Request Floor Plan",
+      "action": "brochure"
+    },
+    "visitCta": {
+      "label": "Book a Site Visit",
+      "action": "enquire"
+    }
+  },
+  "gallery": {
+    "label": "GALLERY",
+    "heading": "A glimpse of elevated living.",
+    "images": [
+      {
+        "src": "/images/image-1.webp",
+        "alt": "Nambiar District 25 residential towers exterior",
+        "size": "large"
+      },
+      {
+        "src": "/images/image-2.webp",
+        "alt": "Clubhouse swimming pool and landscaped deck",
+        "size": "portrait"
+      },
+      {
+        "src": "/images/image-3.webp",
+        "alt": "Premium living and dining interior",
+        "size": "medium"
+      },
+      {
+        "src": "/images/image-4.webp",
+        "alt": "Evening view of the pool and residential amenities",
+        "size": "medium"
+      },
+      {
+        "src": "/images/image-5.webp",
+        "alt": "Modern residence facade and landscaping",
+        "size": "portrait"
+      }
+    ],
+    "cta": {
+      "line1": "See it.",
+      "line2": "Love it.",
+      "line3": "Live it.",
+      "label": "View Full Gallery",
+      "action": "enquire"
+    }
+  },
+  "location": {
+    "heading": "PRIME LOCATION.",
+    "headingAccent": "ENDLESS CONNECTIVITY.",
+    "mapEmbedUrl": "https://www.google.com/maps?output=embed&ll=12.874716,77.736111&z=10&t=m&hl=en-US&gl=US&q=Nambiar+District+25,+cd+road,+Dommasandra,+Domsandra,+Karnataka+562125",
+    "mapTitle": "Nambiar District 25 location map — Dommasandra, Karnataka",
+    "masterPlanImage": "/images/location-map.webp",
+    "masterPlanAlt": "Nambiar District 25 location connectivity map",
+    "connectivity": [
+      {
+        "label": "Airport Connectivity",
+        "items": [
+          {
+            "label": "Kempegowda International Airport",
+            "time": "20 mins"
+          },
+          {
+            "label": "Airport Road",
+            "time": "25 mins"
+          },
+          {
+            "label": "Devanahalli Airport Zone",
+            "time": "30 mins"
+          },
+          {
+            "label": "HAL Airport",
+            "time": "40 mins"
+          }
+        ]
+      },
+      {
+        "label": "Business Hubs",
+        "items": [
+          {
+            "label": "Manyata Tech Park",
+            "time": "25 mins"
+          },
+          {
+            "label": "Devanahalli Business Park",
+            "time": "30 mins"
+          },
+          {
+            "label": "Electronic City",
+            "time": "20 mins"
+          },
+          {
+            "label": "Whitefield IT Corridor",
+            "time": "30 mins"
+          }
+        ]
+      },
+      {
+        "label": "Key Locations",
+        "items": [
+          {
+            "label": "Hebbal",
+            "time": "25 mins"
+          },
+          {
+            "label": "Yelahanka",
+            "time": "25 mins"
+          },
+          {
+            "label": "Sarjapur",
+            "time": "10 mins"
+          },
+          {
+            "label": "Bommasandra",
+            "time": "20 mins"
+          }
+        ]
+      }
+    ],
+    "nearbyHeading": "CLOSE TO WHAT MATTERS",
+    "nearbyPlaces": [
+      {
+        "icon": "plane",
+        "label": "International Airport"
+      },
+      {
+        "icon": "briefcase",
+        "label": "IT & Business Parks"
+      },
+      {
+        "icon": "graduation-cap",
+        "label": "Leading Schools & Colleges"
+      },
+      {
+        "icon": "heart-pulse",
+        "label": "Hospitals & Healthcare"
+      },
+      {
+        "icon": "shopping-bag",
+        "label": "Retail & Entertainment"
+      }
+    ],
+    "mapCta": {
+      "label": "View on Map",
+      "action": "map",
+      "target": "#location-map"
+    },
+    "nearbyCta": {
+      "label": "Explore Connectivity",
+      "action": "enquire",
+      "intent": "know-more"
+    }
+  },
+  "enquiry": {
+    "heading": "Enquire About Nambiar District 25",
+    "description": "Share your details and our team will get in touch with you.",
+    "nameLabel": "Full Name",
+    "phoneLabel": "Phone Number",
+    "submitLabel": "Submit Enquiry",
+    "successMessage": "Thank you. We will contact you shortly.",
+    "intents": [
+      {
+        "id": "default",
+        "name": "General enquiry",
+        "heading": "Your Dream Home",
+        "headingAccent": "Awaits You",
+        "description": "Share your details and our team will get in touch with you.",
+        "submitLabel": "Request a Callback",
+        "successType": "message",
+        "successMessage": "Thank you. We will contact you shortly.",
+        "backgroundImage": "/images/image-1.webp",
+        "backgroundImageAlt": "Luxury residential towers",
+        "logo": "",
+        "showLogo": true,
+        "highlightsEnabled": true,
+        "highlights": [
+          {
+            "icon": "building",
+            "value": "210+",
+            "label": "Acres Township"
+          },
+          {
+            "icon": "layers",
+            "value": "2, 3, 4 BHK",
+            "label": "& Penthouses"
+          },
+          {
+            "icon": "building",
+            "value": "G + 21",
+            "label": "Floors"
+          },
+          {
+            "icon": "map-pin",
+            "value": "East Bangalore",
+            "label": "By Nambiar Group"
+          }
+        ],
+        "footerText": "We respect your privacy. Your details are safe with us.",
+        "fields": {
+          "name": {
+            "enabled": true,
+            "required": true,
+            "label": "Full Name",
+            "placeholder": "Enter your full name"
+          },
+          "phone": {
+            "enabled": true,
+            "required": true,
+            "label": "Contact Number",
+            "placeholder": "Enter your contact number"
+          },
+          "email": {
+            "enabled": true,
+            "required": false,
+            "label": "Email Address",
+            "placeholder": "Enter your email address"
+          }
+        },
+        "gtmId": "enquiry_default"
+      },
+      {
+        "id": "brochure",
+        "name": "Download brochure",
+        "heading": "Download the Brochure",
+        "headingAccent": "Instantly",
+        "description": "Share your details and our team will get in touch with you.",
+        "submitLabel": "Get the Brochure",
+        "successType": "download",
+        "successMessage": "Thank you. Your brochure is ready to download.",
+        "successButtonLabel": "Download Brochure",
+        "backgroundImage": "/images/image-1.webp",
+        "backgroundImageAlt": "Luxury residential towers",
+        "logo": "",
+        "showLogo": true,
+        "highlightsEnabled": true,
+        "highlights": [
+          {
+            "icon": "building",
+            "value": "210+",
+            "label": "Acres Township"
+          },
+          {
+            "icon": "layers",
+            "value": "2, 3, 4 BHK",
+            "label": "& Penthouses"
+          },
+          {
+            "icon": "building",
+            "value": "G + 21",
+            "label": "Floors"
+          },
+          {
+            "icon": "map-pin",
+            "value": "East Bangalore",
+            "label": "By Nambiar Group"
+          }
+        ],
+        "footerText": "We respect your privacy. Your details are safe with us.",
+        "fields": {
+          "name": {
+            "enabled": true,
+            "required": true,
+            "label": "Full Name",
+            "placeholder": "Enter your full name"
+          },
+          "phone": {
+            "enabled": true,
+            "required": true,
+            "label": "Contact Number",
+            "placeholder": "Enter your contact number"
+          },
+          "email": {
+            "enabled": true,
+            "required": false,
+            "label": "Email Address",
+            "placeholder": "Enter your email address"
+          }
+        },
+        "gtmId": "enquiry_brochure"
+      },
+      {
+        "id": "masterplan",
+        "name": "View master plan",
+        "heading": "View the Master Plan",
+        "headingAccent": "In Detail",
+        "description": "Share your details and our team will get in touch with you.",
+        "submitLabel": "Request Master Plan",
+        "successType": "download",
+        "successMessage": "Thank you. The master plan is ready.",
+        "successButtonLabel": "View Master Plan",
+        "backgroundImage": "/images/image-1.webp",
+        "backgroundImageAlt": "Luxury residential towers",
+        "logo": "",
+        "showLogo": true,
+        "highlightsEnabled": true,
+        "highlights": [
+          {
+            "icon": "building",
+            "value": "210+",
+            "label": "Acres Township"
+          },
+          {
+            "icon": "layers",
+            "value": "2, 3, 4 BHK",
+            "label": "& Penthouses"
+          },
+          {
+            "icon": "building",
+            "value": "G + 21",
+            "label": "Floors"
+          },
+          {
+            "icon": "map-pin",
+            "value": "East Bangalore",
+            "label": "By Nambiar Group"
+          }
+        ],
+        "footerText": "We respect your privacy. Your details are safe with us.",
+        "fields": {
+          "name": {
+            "enabled": true,
+            "required": true,
+            "label": "Full Name",
+            "placeholder": "Enter your full name"
+          },
+          "phone": {
+            "enabled": true,
+            "required": true,
+            "label": "Contact Number",
+            "placeholder": "Enter your contact number"
+          },
+          "email": {
+            "enabled": true,
+            "required": false,
+            "label": "Email Address",
+            "placeholder": "Enter your email address"
+          }
+        },
+        "gtmId": "enquiry_masterplan"
+      },
+      {
+        "id": "know-more",
+        "name": "Know more",
+        "heading": "Know More About Us",
+        "headingAccent": "Let’s Talk",
+        "description": "Share your details and our team will get in touch with you.",
+        "submitLabel": "Know More",
+        "successType": "whatsapp",
+        "successMessage": "Thank you. Continue on WhatsApp if you prefer a quicker reply.",
+        "successButtonLabel": "Chat on WhatsApp",
+        "backgroundImage": "/images/image-1.webp",
+        "backgroundImageAlt": "Luxury residential towers",
+        "logo": "",
+        "showLogo": true,
+        "highlightsEnabled": true,
+        "highlights": [
+          {
+            "icon": "building",
+            "value": "210+",
+            "label": "Acres Township"
+          },
+          {
+            "icon": "layers",
+            "value": "2, 3, 4 BHK",
+            "label": "& Penthouses"
+          },
+          {
+            "icon": "building",
+            "value": "G + 21",
+            "label": "Floors"
+          },
+          {
+            "icon": "map-pin",
+            "value": "East Bangalore",
+            "label": "By Nambiar Group"
+          }
+        ],
+        "footerText": "We respect your privacy. Your details are safe with us.",
+        "fields": {
+          "name": {
+            "enabled": true,
+            "required": true,
+            "label": "Full Name",
+            "placeholder": "Enter your full name"
+          },
+          "phone": {
+            "enabled": true,
+            "required": true,
+            "label": "Contact Number",
+            "placeholder": "Enter your contact number"
+          },
+          "email": {
+            "enabled": true,
+            "required": false,
+            "label": "Email Address",
+            "placeholder": "Enter your email address"
+          }
+        },
+        "gtmId": "enquiry_know_more"
+      }
+    ]
+  },
+  "stickyCTA": {
+    "enabled": true,
+    "message": "Your Dream Home Awaits!",
+    "enquireLabel": "Enquire Now",
+    "whatsappLabel": "Chat on WhatsApp",
+    "enquireIntent": ""
+  },
+  "footer": {
+    "logo": "/images/logo.webp",
+    "managedBy": "Amoghaa Real Estates, a RERA-registered Channel Partner (ACK/KA/RERA/1250/303/AG/260816/008257), authorized to market Nambiar District 25.",
+    "reraTitle": "Nambiar District 25 project is registered under RERA:",
+    "reraPhases": [
+      "Phase 1: PRM/KA/RERA/1251/308/PR/100125/007377",
+      "Phase 2: PRM/KA/RERA/1251/308/PR/200825/008011",
+      "Phase 3: PRM/KA/RERA/1251/308/PR/260526/008686"
+    ],
+    "disclaimerTitle": "Disclaimer:",
+    "disclaimerParagraphs": [
+      "The information provided on this website is intended solely for general informational purposes and should not be considered as an official offer, commitment, or assurance of any kind. This website is managed by a RERA-authorized real estate channel partner.",
+      "Project details, specifications, pricing, availability, images, and other information displayed on this website are subject to change without prior notice. Images used are for illustrative and representational purposes only and may differ from the actual project.",
+      "By submitting your contact details on this website, you authorize us to share your information with RERA-registered developers and associated partners for the purpose of responding to your enquiry and providing project-related updates. You may also receive communication via call, SMS, WhatsApp, or email regarding this project and related offerings.",
+      "All website content, including text, design, graphics, and branding elements, is protected under applicable copyright and intellectual property laws. Unauthorized use, copying, or reproduction of any material from this website is strictly prohibited."
+    ],
+    "copyrightText": "© Copyright 2026 Nambiar District 25. All Rights Reserved."
+  },
+  "blogs": [],
+  "virtualTourSection": {
+    "enabled": true,
+    "label": "VIRTUAL TOUR",
+    "containerWidth": 70,
+    "playIconEnabled": true,
+    "heading": "Virtual Site Visit - Nambiar District 25",
+    "videoUrl": "https://www.youtube.com/watch?v=GeyurGuBVK0",
+    "overlayColor": "#06192c",
+    "overlayOpacity": 0.7,
+    "blurAmount": 4,
+    "sectionHeight": 420,
+    "textColor": "#ffffff",
+    "enquireIntent": ""
+  },
+  "plansSection": {
+    "enabled": true,
+    "label": "Project Plans",
+    "heading": "Master plan and floor plans",
+    "backgroundColor": "#071d31",
+    "textColor": "#ffffff",
+    "cards": [
+      {
+        "enabled": true,
+        "image": "/images/location-map.webp",
+        "imageAlt": "Nambiar District 25 master plan",
+        "textEnabled": true,
+        "title": "Master Plan",
+        "buttonEnabled": true,
+        "button": {
+          "label": "Request Master Plan",
+          "action": "enquire",
+          "intent": "masterplan"
+        },
+        "overlayColor": "#071d31",
+        "buttonColor": "#b98945",
+        "buttonTextColor": "#ffffff"
+      },
+      {
+        "enabled": true,
+        "image": "/images/floor-plan.webp",
+        "imageAlt": "Nambiar District 25 apartment floor plan",
+        "textEnabled": true,
+        "title": "Floor Plans",
+        "buttonEnabled": true,
+        "button": {
+          "label": "Request Floor Plans",
+          "action": "enquire",
+          "intent": "brochure"
+        },
+        "overlayColor": "#071d31",
+        "buttonColor": "#b98945",
+        "buttonTextColor": "#ffffff"
+      }
+    ]
+  },
+  "faqSection": {
+    "enabled": true,
+    "label": "FAQs",
+    "heading": "Frequently Asked Questions",
+    "image": "/images/image-3.webp",
+    "imageAlt": "Nambiar District 25 premium residential community",
+    "backgroundColor": "#f7f3ed",
+    "items": [
+      {
+        "question": "Who is the developer of Nambiar District 25?",
+        "answer": "<p>Nambiar District 25 is developed by Nambiar Builders, a <b><u><a href=\"#enquire=brochure\">Bengaluru-based</a></u></b></p><p></p><ul><li>real estate developer focused on thoughtfully planned residential communities.</li></ul><p></p>"
+      },
+      {
+        "question": "Where is Nambiar District 25 located?",
+        "answer": "The project is located near Dommasandra on Sarjapur Road, Bengaluru, with convenient access to key employment, education, healthcare and lifestyle destinations."
+      },
+      {
+        "question": "What home configurations are available?",
+        "answer": "Nambiar District 25 offers 2, 3 and 4 BHK residences along with penthouse options. Availability may vary, so please enquire for the latest inventory."
+      },
+      {
+        "question": "What amenities are planned in the project?",
+        "answer": "The community features landscaped open spaces, clubhouse and lifestyle facilities, recreation areas, security and thoughtfully planned amenities for everyday living. Final specifications are subject to the official project documents."
+      },
+      {
+        "question": "How can I get the price, floor plan or schedule a site visit?",
+        "answer": "Submit the enquiry form or use the contact options on this page. Our team will share the latest pricing and floor plans and help you schedule a convenient site visit."
+      }
+    ]
+  },
+  "faqs": [],
+  "seo": {
+    "title": "Nambiar District 25 Sarjapur | Luxury Integrated Township",
+    "robots": "index, follow",
+    "ogImage": "/images/hero-image.webp",
+    "keywords": [
+      "Nambiar District 25",
+      "Nambiar District 25 Sarjapur",
+      "luxury township Bangalore",
+      "apartments Sarjapur Road",
+      "Nambiar Group",
+      "2 BHK 3 BHK East Bangalore"
+    ],
+    "canonical": "https://www.sattvacity.example.com",
+    "description": "Nambiar District 25 is a premium township in Sarjapur offering 2, 3, 4 and 4.5 BHK homes, world-class amenities and strong connectivity to the airport and business hubs."
+  },
+  "googleTagManager": {
+    "enabled": false,
+    "containerId": ""
+  },
+  "floatingButton": {
+    "enabled": true,
+    "label": "Enquire Now",
+    "icon": "file-text",
+    "intent": "default",
+    "backgroundColor": "#b98945",
+    "textColor": "#ffffff"
+  },
+  "contactSection": {
+    "enabled": true,
+    "label": "Contact Us",
+    "heading": "Get in Touch",
+    "headingAccent": "With Our Team",
+    "description": "Have questions about Nambiar District 25? Share your details and our team will reach out shortly.",
+    "image": "/images/image-3.webp",
+    "imageAlt": "Nambiar District 25 contact",
+    "layout": "imageLeft",
+    "submitLabel": "Send Message",
+    "successMessage": "Thank you. Our team will contact you shortly.",
+    "footerText": "We respect your privacy. Your details are safe with us.",
+    "backgroundColor": "#f7f3ed",
+    "formBackgroundColor": "#ffffff",
+    "formTextColor": "#0b1f35",
+    "inputBackgroundColor": "#ffffff",
+    "inputBorderColor": "#d8dde6",
+    "inputTextColor": "#0b1f35",
+    "buttonBackgroundColor": "#b98945",
+    "buttonTextColor": "#ffffff",
+    "fields": {
+      "name": {
+        "enabled": true,
+        "required": true,
+        "label": "Full Name",
+        "placeholder": "Enter your full name"
+      },
+      "phone": {
+        "enabled": true,
+        "required": true,
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number"
+      },
+      "email": {
+        "enabled": true,
+        "required": false,
+        "label": "Email Address",
+        "placeholder": "Enter your email address"
+      },
+      "message": {
+        "enabled": true,
+        "required": true,
+        "label": "Message",
+        "placeholder": "How can we help you?"
+      },
+      "custom": []
+    },
+    "gtmId": "contact_page_form"
+  }
+}

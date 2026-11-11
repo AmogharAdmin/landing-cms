@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="4 BHK penthouse floor plan">
+  <rect width="800" height="600" fill="#F7F5F0"/>
+  <g fill="none" stroke="#0B1F35" stroke-width="2.2">
+    <rect x="35" y="35" width="730" height="530"/>
+    <rect x="35" y="35" width="185" height="175"/>
+    <rect x="220" y="35" width="175" height="175"/>
+    <rect x="395" y="35" width="175" height="175"/>
+    <rect x="570" y="35" width="195" height="175"/>
+    <rect x="35" y="210" width="150" height="130"/>
+    <rect x="185" y="210" width="150" height="130"/>
+    <rect x="335" y="210" width="200" height="130"/>
+    <rect x="535" y="210" width="230" height="130"/>
+    <rect x="35" y="340" width="500" height="225"/>
+    <rect x="535" y="340" width="230" height="225"/>
+  </g>
+  <g fill="#667085" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">
+    <text x="127" y="128">MASTER</text>
+    <text x="307" y="128">BEDROOM 2</text>
+    <text x="482" y="128">BEDROOM 3</text>
+    <text x="667" y="128">BEDROOM 4</text>
+    <text x="110" y="280">TOILET</text>
+    <text x="260" y="280">TOILET</text>
+    <text x="435" y="280">KITCHEN</text>
+    <text x="650" y="280">FAMILY</text>
+    <text x="285" y="455">LIVING / DINING</text>
+    <text x="650" y="455">SKY DECK</text>
+  </g>
+  <circle cx="335" cy="210" r="7" fill="#B98945"/>
+</svg>

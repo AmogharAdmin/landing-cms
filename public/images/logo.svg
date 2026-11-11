@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 48" role="img" aria-label="Sattva City">
+  <g fill="none">
+    <path d="M24 4L40 13.2V31.8L24 41L8 31.8V13.2L24 4Z" stroke="#D3A45F" stroke-width="1.6"/>
+    <path d="M24 12L34 17.8V29.2L24 35L14 29.2V17.8L24 12Z" fill="#B98945"/>
+  </g>
+  <text x="50" y="21" fill="#FFFFFF" font-family="Georgia, 'Times New Roman', serif" font-size="16" letter-spacing="1.4">SATTVA</text>
+  <text x="50" y="38" fill="#D3A45F" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="3.6">CITY</text>
+</svg>

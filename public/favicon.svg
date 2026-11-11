@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Sattva City">
+  <rect width="64" height="64" rx="14" fill="#0B1F35"/>
+  <path d="M32 10L50 20.5V43.5L32 54L14 43.5V20.5L32 10Z" fill="none" stroke="#D3A45F" stroke-width="2"/>
+  <text x="32" y="39" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#D3A45F">S</text>
+</svg>

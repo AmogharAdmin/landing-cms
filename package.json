@@ -1,0 +1,47 @@
+{
+  "name": "amoghaa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev-with-admin.mjs",
+    "dev:next": "next dev",
+    "content-server": "node scripts/content-server.mjs",
+    "migrate-content": "node scripts/migrate-content.mjs",
+    "sync-content": "node scripts/sync-content.mjs",
+    "restore-main-site": "node scripts/restore-main-site.mjs",
+    "save-main-site": "node scripts/save-main-site.mjs",
+    "create-admin": "node scripts/create-admin.mjs",
+    "generate-admin-sql": "node scripts/generate-admin-sql.mjs",
+    "build": "next build",
+    "start": "next start",
+    "test": "tsx --test lib/site-backup.test.ts lib/buildesk-crm.test.ts lib/google-tag-manager.test.ts lib/google-tag-manager-events.test.ts lib/attribution.test.ts lib/keyword-content.test.ts lib/traffic-source.test.ts",
+    "optimize-images": "node scripts/optimize-images.mjs",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@vercel/blob": "^2.8.0",
+    "bcryptjs": "^3.0.3",
+    "iron-session": "^8.0.4",
+    "lucide-react": "^1.33.0",
+    "next": "16.3.2",
+    "nodemailer": "^9.0.5",
+    "pg": "^8.23.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "server-only": "^0.0.1",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/nodemailer": "^8.0.1",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.2",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.13",
+    "typescript": "^5"
+  }
+}

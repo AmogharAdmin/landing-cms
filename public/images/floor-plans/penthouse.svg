@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="3.5 BHK penthouse floor plan">
+  <rect width="800" height="600" fill="#F7F5F0"/>
+  <g fill="none" stroke="#0B1F35" stroke-width="2.2">
+    <rect x="40" y="40" width="720" height="520"/>
+    <rect x="40" y="40" width="240" height="190"/>
+    <rect x="280" y="40" width="200" height="190"/>
+    <rect x="480" y="40" width="280" height="190"/>
+    <rect x="40" y="230" width="170" height="150"/>
+    <rect x="210" y="230" width="190" height="150"/>
+    <rect x="400" y="230" width="180" height="150"/>
+    <rect x="580" y="230" width="180" height="150"/>
+    <rect x="40" y="380" width="460" height="180"/>
+    <rect x="500" y="380" width="260" height="180"/>
+  </g>
+  <g fill="#667085" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle">
+    <text x="160" y="140">MASTER SUITE</text>
+    <text x="380" y="140">BEDROOM 2</text>
+    <text x="620" y="140">BEDROOM 3</text>
+    <text x="125" y="310">DRESS</text>
+    <text x="305" y="310">STUDY</text>
+    <text x="490" y="310">KITCHEN</text>
+    <text x="670" y="310">UTILITY</text>
+    <text x="270" y="475">GREAT ROOM</text>
+    <text x="630" y="475">TERRACE</text>
+  </g>
+  <circle cx="400" cy="230" r="7" fill="#B98945"/>
+</svg>
