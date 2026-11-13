@@ -187,8 +187,8 @@ export async function getCmsStatus(): Promise<CmsStatus> {
     warnings.push({
       id: "missing_blob",
       title: "Image uploads are not configured",
-      detail: "BLOB_READ_WRITE_TOKEN (and optional Blog_STORE_ID) are missing.",
-      fix: "Create a Vercel Blob store for this project and add the token env vars, then redeploy.",
+      detail: "No Vercel Blob credentials were found in this deployment (no *_READ_WRITE_TOKEN or *_STORE_ID variable).",
+      fix: "In Vercel → Storage → your Blob store → Connect Project, tick Production, then redeploy. Env vars only apply to deployments created after connecting.",
     });
   }
 

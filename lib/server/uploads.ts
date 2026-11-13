@@ -112,22 +112,43 @@ export function uploadDirectory() {
     : path.join(process.cwd(), "public", "uploads");
 }
 
-/**
- * This project's Blob store was created with prefix "Blog_", so Vercel injects
- * Blog_STORE_ID (see Storage → amoghaa-blob → Quickstart). Token stays BLOB_*.
- */
 function envTrim(name: string) {
   // Bracket access avoids any build-time empty inlining of missing env keys.
   const value = process.env[name];
   return typeof value === "string" ? value.trim() : "";
 }
 
+/**
+ * Vercel lets each Blob connection use a custom env prefix (BLOB_, Blog_, nambiar_blob_, ...),
+ * so look up the default keys first, then any key with the right suffix and value shape.
+ */
+function findBlobEnv(preferredKeys: string[], suffix: string, valuePrefix: string): { key: string; value: string } | null {
+  for (const key of preferredKeys) {
+    const value = envTrim(key);
+    if (value) return { key, value };
+  }
+  for (const key of Object.keys(process.env).sort()) {
+    if (!key.toUpperCase().endsWith(suffix)) continue;
+    const value = envTrim(key);
+    if (value.toLowerCase().startsWith(valuePrefix)) return { key, value };
+  }
+  return null;
+}
+
+function blobStoreIdEnv() {
+  return findBlobEnv(["BLOB_STORE_ID", "Blog_STORE_ID"], "_STORE_ID", "store_");
+}
+
+function blobTokenEnv() {
+  return findBlobEnv(["BLOB_READ_WRITE_TOKEN", "Blog_READ_WRITE_TOKEN"], "_READ_WRITE_TOKEN", "vercel_blob_rw_");
+}
+
 export function blobStoreId() {
-  return envTrim("Blog_STORE_ID") || envTrim("BLOB_STORE_ID");
+  return blobStoreIdEnv()?.value || "";
 }
 
 export function blobReadWriteToken() {
-  return envTrim("BLOB_READ_WRITE_TOKEN") || envTrim("Blog_READ_WRITE_TOKEN");
+  return blobTokenEnv()?.value || "";
 }
 
 /** True when Vercel Blob credentials are available (token and/or store id). */
@@ -136,11 +157,13 @@ export function isBlobUploadConfigured() {
 }
 
 export function blobCredentialStatus() {
+  const storeId = blobStoreIdEnv();
+  const token = blobTokenEnv();
   return {
-    hasStoreId: Boolean(blobStoreId()),
-    hasToken: Boolean(blobReadWriteToken()),
-    storeIdKey: envTrim("Blog_STORE_ID") ? "Blog_STORE_ID" : envTrim("BLOB_STORE_ID") ? "BLOB_STORE_ID" : null,
-    tokenKey: envTrim("BLOB_READ_WRITE_TOKEN") ? "BLOB_READ_WRITE_TOKEN" : envTrim("Blog_READ_WRITE_TOKEN") ? "Blog_READ_WRITE_TOKEN" : null,
+    hasStoreId: Boolean(storeId),
+    hasToken: Boolean(token),
+    storeIdKey: storeId?.key ?? null,
+    tokenKey: token?.key ?? null,
   };
 }
 
@@ -172,6 +195,12 @@ export async function saveUploadedFile(fileName: string, mime: string, buffer: B
       ...(token ? { token } : {}),
     });
     return blob.url;
+  }
+
+  if (process.env.VERCEL === "1") {
+    throw new Error(
+      "Vercel Blob is not connected to this deployment. In Vercel → Storage, connect the Blob store to this project (Production environment), then redeploy.",
+    );
   }
 
   const directory = uploadDirectory();

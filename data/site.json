@@ -409,9 +409,7 @@
           "intent": ""
         }
       }
-    ],
-    "descriptionWordLimit": 20,
-    "readMoreColor": "#dc2626"
+    ]
   },
   "highlights": {
     "items": [
@@ -453,8 +451,7 @@
     "items": [
       {
         "icon": "building",
-        "label": "Clubhouse",
-        "iconImage": "/globe.svg"
+        "label": "Clubhouse"
       },
       {
         "icon": "waves",
@@ -864,12 +861,7 @@
       "label": "Explore Connectivity",
       "action": "enquire",
       "intent": "know-more"
-    },
-    "connectivityGroupColor": "#facc15",
-    "connectivityItemColor": "#a7f3d0",
-    "connectivityTimeColor": "#f472b6",
-    "connectivityIconColor": "#38bdf8",
-    "connectivityBackgroundColor": "#1e1b4b"
+    }
   },
   "enquiry": {
     "heading": "Enquire About Nambiar District 25",
@@ -1158,11 +1150,7 @@
     "blurAmount": 4,
     "sectionHeight": 420,
     "textColor": "#ffffff",
-    "enquireIntent": "",
-    "playIconColor": "#dc2626",
-    "playButtonColor": "#ffffff",
-    "playButtonBorderColor": "#facc15",
-    "headingColor": "#facc15"
+    "enquireIntent": ""
   },
   "plansSection": {
     "enabled": true,

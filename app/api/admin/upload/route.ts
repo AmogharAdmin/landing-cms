@@ -101,7 +101,7 @@ export async function POST(request: Request) {
     const status = blobCredentialStatus();
     if (!isBlobUploadConfigured()) {
       return jsonError(
-        "Blob storage is not configured in this environment. Copy Blog_STORE_ID and BLOB_READ_WRITE_TOKEN from Vercel Storage → amoghaa-blob → .env.local into .env (local) or ensure they exist on Production, then restart/redeploy.",
+        "Blob storage is not configured in this environment. Connect the Vercel Blob store to this project (Production environment) and redeploy, or copy its BLOB_READ_WRITE_TOKEN into .env for local use.",
         500,
       );
     }
